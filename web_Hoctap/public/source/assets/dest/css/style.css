@@ -67,7 +67,45 @@ background:#fff;
 font-weight:300;
 
 }
-
+.mxh {
+    display: inline-flex;
+}
+.mxh li a > i.fa-facebook-square {
+    width: 30px;
+    height: 30px;
+    background: #337ab7;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 50%;
+}
+.mxh li a > i.fa-google-plus {
+    width: 30px;
+    height: 30px;
+    background: #f13e3e;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 50%;
+}
+.mxh li a > i.fa-youtube-square {
+    width: 30px;
+    height: 30px;
+    background: #e00808;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 50%;
+}
+.mxh li a > i.fa-skype {
+    width: 30px;
+    height: 30px;
+    background: #2d99f5;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 50%;
+}
 div,form,fieldset,legend,label {
 margin:0;
 padding:0
@@ -707,7 +745,7 @@ border-radius:50%
 }
 
 h1,.h1 {
-color:#253951;
+color:#ffffff;
 font-size:2.78231em;
 line-height:39.78px;
 font-family:"Open Sans",sans-serif;
@@ -1067,7 +1105,9 @@ background-color:#57a7c6
 ============================================================================= */
 
 #logo img {
-margin-bottom:13px
+margin-bottom:13px;
+    width: 100px;
+    border-radius: 50%;
 }
 
 .slogan {
@@ -1082,7 +1122,9 @@ margin-left:25px
 border-top:1px solid #e3e3e3;
 border-bottom:1px solid #e3e3e3
 }
-.color-div{background:#353535!important;}
+.color-div{
+    background:#00aeed!important;
+}
 #footer.color-div input{background: #3f3f3f;border:1px solid gray;}
 .color-div a{color:lightgray;}
 
@@ -4626,14 +4668,14 @@ float:left!important
 
 #footer {
 background:#172431;
-color:#7b8fa3;
+color:#ffffff;
 padding:40px 0 50px
 }
 
 #footer a {
 color:#7b8fa3
 }
-#footer.color-div a {color:gray}
+#footer.color-div a {color:#ffffff;}
 #footer a:hover {
 color:#f90
 }
@@ -4643,7 +4685,7 @@ color:#f90
 color:#adbac8;
 margin-bottom:22px
 }
-#footer.color-div h4.widget-title{color:gray;}
+#footer.color-div h4.widget-title{color:#ffffff;}
 
 #footer ul {
 list-style:none
@@ -4654,7 +4696,7 @@ margin-bottom:10px
 }
 
 #footer ul li i {
-color:#f90;
+color:#ffffff;
 margin-right:5px;
 font-size:10px
 }
