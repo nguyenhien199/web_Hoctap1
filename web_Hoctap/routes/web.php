@@ -20,3 +20,11 @@ Route::get('index',[
     'as' => 'Hơme',
     'uses' => 'PageController@getIndex'
 ]);
+Route::get('typeCourseware',[
+    'as' => 'typeCourseware',
+    'uses' => 'PageController@getTypeCourse'
+]);
+Route::get('detailCourse',[
+    'as' => 'detailCourse',
+    'uses' => 'PageController@getDetaiilCourse'
+]);
