@@ -42,266 +42,493 @@
         </div>
     </div>
     <div class="container">
-        <div id="content" class="space-top-none">
-            <div class="main-content">
-                <div class="space60">&nbsp;</div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="beta-products-list">
-                            <h4>New Products</h4>
-                            <div class="beta-products-details">
-                                <p class="pull-left">438 styles found</p>
-                                <div class="clearfix"></div>
-                            </div>
+        {{--<div id="content" class="space-top-none">--}}
+            {{--<div class="main-content">--}}
+                {{--<div class="space60">&nbsp;</div>--}}
+                {{--<div class="row">--}}
+                    {{--<div class="col-sm-12">--}}
+                        {{--<div class="beta-products-list">--}}
+                            {{--<h4>New Products</h4>--}}
+                            {{--<div class="beta-products-details">--}}
+                                {{--<p class="pull-left">438 styles found</p>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</div>--}}
 
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <div class="single-item">
-                                        <div class="single-item-header">
-                                            <a href="product.html"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>
-                                        </div>
-                                        <div class="single-item-body">
-                                            <p class="single-item-title">Sample Woman Top</p>
-                                            <p class="single-item-price">
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                                        <div class="single-item-caption">
-                                            <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="single-item">
-                                        <div class="ribbon-wrapper"><div class="ribbon sale">Sale</div></div>
+                            {{--<div class="row">--}}
+                                {{--<div class="col-sm-3">--}}
+                                    {{--<div class="single-item">--}}
+                                        {{--<div class="single-item-header">--}}
+                                            {{--<a href="product.html"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-body">--}}
+                                            {{--<p class="single-item-title">Sample Woman Top</p>--}}
+                                            {{--<p class="single-item-price">--}}
+                                                {{--<span>$34.55</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-caption">--}}
+                                            {{--<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>--}}
+                                            {{--<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<div class="clearfix"></div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="col-sm-3">--}}
+                                    {{--<div class="single-item">--}}
+                                        {{--<div class="ribbon-wrapper"><div class="ribbon sale">Sale</div></div>--}}
 
-                                        <div class="single-item-header">
-                                            <a href="product.html"><img src="source/assets/dest/images/products/2.jpg" alt=""></a>
-                                        </div>
-                                        <div class="single-item-body">
-                                            <p class="single-item-title">Sample Woman Top</p>
-                                            <p class="single-item-price">
-                                                <span class="flash-del">$34.55</span>
-                                                <span class="flash-sale">$33.55</span>
-                                            </p>
-                                        </div>
-                                        <div class="single-item-caption">
-                                            <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="single-item">
-                                        <div class="single-item-header">
-                                            <a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
-                                        </div>
-                                        <div class="single-item-body">
-                                            <p class="single-item-title">Sample Woman Top</p>
-                                            <p class="single-item-price">
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                                        <div class="single-item-caption">
-                                            <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="single-item">
-                                        <div class="single-item-header">
-                                            <a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
-                                        </div>
-                                        <div class="single-item-body">
-                                            <p class="single-item-title">Sample Woman Top</p>
-                                            <p class="single-item-price">
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                                        <div class="single-item-caption">
-                                            <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- .beta-products-list -->
+                                        {{--<div class="single-item-header">--}}
+                                            {{--<a href="product.html"><img src="source/assets/dest/images/products/2.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-body">--}}
+                                            {{--<p class="single-item-title">Sample Woman Top</p>--}}
+                                            {{--<p class="single-item-price">--}}
+                                                {{--<span class="flash-del">$34.55</span>--}}
+                                                {{--<span class="flash-sale">$33.55</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-caption">--}}
+                                            {{--<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>--}}
+                                            {{--<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<div class="clearfix"></div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="col-sm-3">--}}
+                                    {{--<div class="single-item">--}}
+                                        {{--<div class="single-item-header">--}}
+                                            {{--<a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-body">--}}
+                                            {{--<p class="single-item-title">Sample Woman Top</p>--}}
+                                            {{--<p class="single-item-price">--}}
+                                                {{--<span>$34.55</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-caption">--}}
+                                            {{--<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>--}}
+                                            {{--<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<div class="clearfix"></div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="col-sm-3">--}}
+                                    {{--<div class="single-item">--}}
+                                        {{--<div class="single-item-header">--}}
+                                            {{--<a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-body">--}}
+                                            {{--<p class="single-item-title">Sample Woman Top</p>--}}
+                                            {{--<p class="single-item-price">--}}
+                                                {{--<span>$34.55</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-caption">--}}
+                                            {{--<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>--}}
+                                            {{--<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<div class="clearfix"></div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div> <!-- .beta-products-list -->--}}
 
-                        <div class="space50">&nbsp;</div>
+                        {{--<div class="space50">&nbsp;</div>--}}
 
-                        <div class="beta-products-list">
-                            <h4>Top Products</h4>
-                            <div class="beta-products-details">
-                                <p class="pull-left">438 styles found</p>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <div class="single-item">
-                                        <div class="single-item-header">
-                                            <a href="product.html"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>
-                                        </div>
-                                        <div class="single-item-body">
-                                            <p class="single-item-title">Sample Woman Top</p>
-                                            <p class="single-item-price">
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                                        <div class="single-item-caption">
-                                            <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="single-item">
-                                        <div class="ribbon-wrapper"><div class="ribbon sale">Sale</div></div>
+                        {{--<div class="beta-products-list">--}}
+                            {{--<h4>Top Products</h4>--}}
+                            {{--<div class="beta-products-details">--}}
+                                {{--<p class="pull-left">438 styles found</p>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</div>--}}
+                            {{--<div class="row">--}}
+                                {{--<div class="col-sm-3">--}}
+                                    {{--<div class="single-item">--}}
+                                        {{--<div class="single-item-header">--}}
+                                            {{--<a href="product.html"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-body">--}}
+                                            {{--<p class="single-item-title">Sample Woman Top</p>--}}
+                                            {{--<p class="single-item-price">--}}
+                                                {{--<span>$34.55</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-caption">--}}
+                                            {{--<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>--}}
+                                            {{--<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<div class="clearfix"></div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="col-sm-3">--}}
+                                    {{--<div class="single-item">--}}
+                                        {{--<div class="ribbon-wrapper"><div class="ribbon sale">Sale</div></div>--}}
 
-                                        <div class="single-item-header">
-                                            <a href="product.html"><img src="source/assets/dest/images/products/2.jpg" alt=""></a>
-                                        </div>
-                                        <div class="single-item-body">
-                                            <p class="single-item-title">Sample Woman Top</p>
-                                            <p class="single-item-price">
-                                                <span class="flash-del">$34.55</span>
-                                                <span class="flash-sale">$33.55</span>
-                                            </p>
-                                        </div>
-                                        <div class="single-item-caption">
-                                            <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="single-item">
-                                        <div class="single-item-header">
-                                            <a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
-                                        </div>
-                                        <div class="single-item-body">
-                                            <p class="single-item-title">Sample Woman Top</p>
-                                            <p class="single-item-price">
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                                        <div class="single-item-caption">
-                                            <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="single-item">
-                                        <div class="single-item-header">
-                                            <a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
-                                        </div>
-                                        <div class="single-item-body">
-                                            <p class="single-item-title">Sample Woman Top</p>
-                                            <p class="single-item-price">
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                                        <div class="single-item-caption">
-                                            <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="space40">&nbsp;</div>
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <div class="single-item">
-                                        <div class="single-item-header">
-                                            <a href="product.html"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>
-                                        </div>
-                                        <div class="single-item-body">
-                                            <p class="single-item-title">Sample Woman Top</p>
-                                            <p class="single-item-price">
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                                        <div class="single-item-caption">
-                                            <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="single-item">
-                                        <div class="ribbon-wrapper"><div class="ribbon sale">Sale</div></div>
+                                        {{--<div class="single-item-header">--}}
+                                            {{--<a href="product.html"><img src="source/assets/dest/images/products/2.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-body">--}}
+                                            {{--<p class="single-item-title">Sample Woman Top</p>--}}
+                                            {{--<p class="single-item-price">--}}
+                                                {{--<span class="flash-del">$34.55</span>--}}
+                                                {{--<span class="flash-sale">$33.55</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-caption">--}}
+                                            {{--<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>--}}
+                                            {{--<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<div class="clearfix"></div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="col-sm-3">--}}
+                                    {{--<div class="single-item">--}}
+                                        {{--<div class="single-item-header">--}}
+                                            {{--<a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-body">--}}
+                                            {{--<p class="single-item-title">Sample Woman Top</p>--}}
+                                            {{--<p class="single-item-price">--}}
+                                                {{--<span>$34.55</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-caption">--}}
+                                            {{--<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>--}}
+                                            {{--<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<div class="clearfix"></div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="col-sm-3">--}}
+                                    {{--<div class="single-item">--}}
+                                        {{--<div class="single-item-header">--}}
+                                            {{--<a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-body">--}}
+                                            {{--<p class="single-item-title">Sample Woman Top</p>--}}
+                                            {{--<p class="single-item-price">--}}
+                                                {{--<span>$34.55</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-caption">--}}
+                                            {{--<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>--}}
+                                            {{--<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<div class="clearfix"></div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="space40">&nbsp;</div>--}}
+                            {{--<div class="row">--}}
+                                {{--<div class="col-sm-3">--}}
+                                    {{--<div class="single-item">--}}
+                                        {{--<div class="single-item-header">--}}
+                                            {{--<a href="product.html"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-body">--}}
+                                            {{--<p class="single-item-title">Sample Woman Top</p>--}}
+                                            {{--<p class="single-item-price">--}}
+                                                {{--<span>$34.55</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-caption">--}}
+                                            {{--<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>--}}
+                                            {{--<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<div class="clearfix"></div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="col-sm-3">--}}
+                                    {{--<div class="single-item">--}}
+                                        {{--<div class="ribbon-wrapper"><div class="ribbon sale">Sale</div></div>--}}
 
-                                        <div class="single-item-header">
-                                            <a href="product.html"><img src="source/assets/dest/images/products/2.jpg" alt=""></a>
-                                        </div>
-                                        <div class="single-item-body">
-                                            <p class="single-item-title">Sample Woman Top</p>
-                                            <p class="single-item-price">
-                                                <span class="flash-del">$34.55</span>
-                                                <span class="flash-sale">$33.55</span>
-                                            </p>
-                                        </div>
-                                        <div class="single-item-caption">
-                                            <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
-                                            <div class="clearfix"></div>
-                                        </div>
+                                        {{--<div class="single-item-header">--}}
+                                            {{--<a href="product.html"><img src="source/assets/dest/images/products/2.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-body">--}}
+                                            {{--<p class="single-item-title">Sample Woman Top</p>--}}
+                                            {{--<p class="single-item-price">--}}
+                                                {{--<span class="flash-del">$34.55</span>--}}
+                                                {{--<span class="flash-sale">$33.55</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-caption">--}}
+                                            {{--<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>--}}
+                                            {{--<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<div class="clearfix"></div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="col-sm-3">--}}
+                                    {{--<div class="single-item">--}}
+                                        {{--<div class="single-item-header">--}}
+                                            {{--<a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-body">--}}
+                                            {{--<p class="single-item-title">Sample Woman Top</p>--}}
+                                            {{--<p class="single-item-price">--}}
+                                                {{--<span>$34.55</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-caption">--}}
+                                            {{--<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>--}}
+                                            {{--<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<div class="clearfix"></div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="col-sm-3">--}}
+                                    {{--<div class="single-item">--}}
+                                        {{--<div class="single-item-header">--}}
+                                            {{--<a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-body">--}}
+                                            {{--<p class="single-item-title">Sample Woman Top</p>--}}
+                                            {{--<p class="single-item-price">--}}
+                                                {{--<span>$34.55</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="single-item-caption">--}}
+                                            {{--<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>--}}
+                                            {{--<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<div class="clearfix"></div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div> <!-- .beta-products-list -->--}}
+                    {{--</div>--}}
+                {{--</div> <!-- end section with sidebar and main content -->--}}
+
+
+            {{--</div> <!-- .main-content -->--}}
+        {{--</div> <!-- #content -->--}}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Khóa học mới nhất <span class="pull-right" style="font-size: 14px; color: #999; text-decoration: none; height: 42px;
+    line-height: 42px;font-size: 12px; font-weight: 600;"><a style="color: #333; text-decoration: none;" href="">Xem thêm</a></span></div>
+            </div>
+            <div class="panel-body">
+                <div class="list-course row">
+                    <div class="col-md-3 col-xs-12">
+                        <div class="item">
+                            <a href="http://salty-chamber-02216.herokuapp.com/chi-tiet-khoa-hoc">
+                                <div class="img">
+                                    <img width="100%" src="http://salty-chamber-02216.herokuapp.com/layout/image/main20image-15524693621081389677771-crop-15524693718131899353495.jpg" alt="">
+                                    <div class="star-count-student">
+                                        <div class="star">4.6 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                        <div class="count-student"><i class="fa fa-user" aria-hidden="true"></i> 10 Học viên</div>
                                     </div>
                                 </div>
-                                <div class="col-sm-3">
-                                    <div class="single-item">
-                                        <div class="single-item-header">
-                                            <a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
-                                        </div>
-                                        <div class="single-item-body">
-                                            <p class="single-item-title">Sample Woman Top</p>
-                                            <p class="single-item-price">
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                                        <div class="single-item-caption">
-                                            <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
-                                            <div class="clearfix"></div>
-                                        </div>
+                                <div class="time-course">
+                                    <div class="video"><i class="fa fa-youtube-play" aria-hidden="true"></i> Khóa học qua Video</div>
+                                    <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> 24 giờ</div>
+                                </div>
+
+                                <div class="intro">
+                                    <div class="title">
+                                        <h1 title="Thiết kế giao diện website với Bootstrap, HTML , CSS ">Thiết kế giao diện website với Bootstrap, HTML , CSS , Thiết kế giao diện website với Bootstrap, HTML , CSS</h1>
+                                    </div>
+                                    <div class="author">
+                                        <div class="name">Nguyễn Duy Quang</div>
                                     </div>
                                 </div>
-                                <div class="col-sm-3">
-                                    <div class="single-item">
-                                        <div class="single-item-header">
-                                            <a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
-                                        </div>
-                                        <div class="single-item-body">
-                                            <p class="single-item-title">Sample Woman Top</p>
-                                            <p class="single-item-price">
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                                        <div class="single-item-caption">
-                                            <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- .beta-products-list -->
+                                <div class="price">Miễn phí</div>
+                            </a>
+                        </div>
                     </div>
-                </div> <!-- end section with sidebar and main content -->
+                    <div class="col-md-3 col-xs-12">
+                        <div class="item">
+                            <a href="http://salty-chamber-02216.herokuapp.com/chi-tiet-khoa-hoc">
+                                <div class="img">
+                                    <img width="100%" src="http://salty-chamber-02216.herokuapp.com/layout/image/main20image-15524693621081389677771-crop-15524693718131899353495.jpg" alt="">
+                                    <div class="star-count-student">
+                                        <div class="star">4.6 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                        <div class="count-student"><i class="fa fa-user" aria-hidden="true"></i> 10 Học viên</div>
+                                    </div>
+                                </div>
+                                <div class="time-course">
+                                    <div class="video"><i class="fa fa-youtube-play" aria-hidden="true"></i> Khóa học qua Video</div>
+                                    <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> 24 giờ</div>
+                                </div>
 
+                                <div class="intro">
+                                    <div class="title">
+                                        <h1>Thiết kế giao diện website với Bootstrap, HTML , CSS</h1>
+                                    </div>
+                                    <div class="author">
+                                        <div class="name">Nguyễn Duy Quang</div>
+                                    </div>
+                                </div>
+                                <div class="price">Miễn phí</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="item">
+                            <a href="http://salty-chamber-02216.herokuapp.com/chi-tiet-khoa-hoc">
+                                <div class="img">
+                                    <img width="100%" src="http://salty-chamber-02216.herokuapp.com/layout/image/main20image-15524693621081389677771-crop-15524693718131899353495.jpg" alt="">
+                                    <div class="star-count-student">
+                                        <div class="star">4.6 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                        <div class="count-student"><i class="fa fa-user" aria-hidden="true"></i> 10 Học viên</div>
+                                    </div>
+                                </div>
+                                <div class="time-course">
+                                    <div class="video"><i class="fa fa-youtube-play" aria-hidden="true"></i> Khóa học qua Video</div>
+                                    <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> 24 giờ</div>
+                                </div>
 
-            </div> <!-- .main-content -->
-        </div> <!-- #content -->
+                                <div class="intro">
+                                    <div class="title">
+                                        <h1>Thiết kế giao diện website với Bootstrap, HTML , CSS</h1>
+                                    </div>
+                                    <div class="author">
+                                        <div class="name">Nguyễn Duy Quang</div>
+                                    </div>
+                                </div>
+                                <div class="price">Miễn phí</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="item">
+                            <a href="http://salty-chamber-02216.herokuapp.com/chi-tiet-khoa-hoc">
+                                <div class="img">
+                                    <img width="100%" src="http://salty-chamber-02216.herokuapp.com/layout/image/main20image-15524693621081389677771-crop-15524693718131899353495.jpg" alt="">
+                                    <div class="star-count-student">
+                                        <div class="star">4.6 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                        <div class="count-student"><i class="fa fa-user" aria-hidden="true"></i> 10 Học viên</div>
+                                    </div>
+                                </div>
+                                <div class="time-course">
+                                    <div class="video"><i class="fa fa-youtube-play" aria-hidden="true"></i> Khóa học qua Video</div>
+                                    <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> 24 giờ</div>
+                                </div>
+
+                                <div class="intro">
+                                    <div class="title">
+                                        <h1>Thiết kế giao diện website với Bootstrap, HTML , CSS</h1>
+                                    </div>
+                                    <div class="author">
+                                        <div class="name">Nguyễn Duy Quang</div>
+                                    </div>
+                                </div>
+                                <div class="price">Miễn phí</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="item">
+                            <a href="http://salty-chamber-02216.herokuapp.com/chi-tiet-khoa-hoc">
+                                <div class="img">
+                                    <img width="100%" src="http://salty-chamber-02216.herokuapp.com/layout/image/main20image-15524693621081389677771-crop-15524693718131899353495.jpg" alt="">
+                                    <div class="star-count-student">
+                                        <div class="star">4.6 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                        <div class="count-student"><i class="fa fa-user" aria-hidden="true"></i> 10 Học viên</div>
+                                    </div>
+                                </div>
+                                <div class="time-course">
+                                    <div class="video"><i class="fa fa-youtube-play" aria-hidden="true"></i> Khóa học qua Video</div>
+                                    <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> 24 giờ</div>
+                                </div>
+
+                                <div class="intro">
+                                    <div class="title">
+                                        <h1>Thiết kế giao diện website với Bootstrap, HTML , CSS</h1>
+                                    </div>
+                                    <div class="author">
+                                        <div class="name">Nguyễn Duy Quang</div>
+                                    </div>
+                                </div>
+                                <div class="price">Miễn phí</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="item">
+                            <a href="http://salty-chamber-02216.herokuapp.com/chi-tiet-khoa-hoc">
+                                <div class="img">
+                                    <img width="100%" src="http://salty-chamber-02216.herokuapp.com/layout/image/main20image-15524693621081389677771-crop-15524693718131899353495.jpg" alt="">
+                                    <div class="star-count-student">
+                                        <div class="star">4.6 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                        <div class="count-student"><i class="fa fa-user" aria-hidden="true"></i> 10 Học viên</div>
+                                    </div>
+                                </div>
+                                <div class="time-course">
+                                    <div class="video"><i class="fa fa-youtube-play" aria-hidden="true"></i> Khóa học qua Video</div>
+                                    <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> 24 giờ</div>
+                                </div>
+
+                                <div class="intro">
+                                    <div class="title">
+                                        <h1>Thiết kế giao diện website với Bootstrap, HTML , CSS</h1>
+                                    </div>
+                                    <div class="author">
+                                        <div class="name">Nguyễn Duy Quang</div>
+                                    </div>
+                                </div>
+                                <div class="price">Miễn phí</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="item">
+                            <a href="http://salty-chamber-02216.herokuapp.com/chi-tiet-khoa-hoc">
+                                <div class="img">
+                                    <img width="100%" src="http://salty-chamber-02216.herokuapp.com/layout/image/main20image-15524693621081389677771-crop-15524693718131899353495.jpg" alt="">
+                                    <div class="star-count-student">
+                                        <div class="star">4.6 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                        <div class="count-student"><i class="fa fa-user" aria-hidden="true"></i> 10 Học viên</div>
+                                    </div>
+                                </div>
+                                <div class="time-course">
+                                    <div class="video"><i class="fa fa-youtube-play" aria-hidden="true"></i> Khóa học qua Video</div>
+                                    <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> 24 giờ</div>
+                                </div>
+
+                                <div class="intro">
+                                    <div class="title">
+                                        <h1>Thiết kế giao diện website với Bootstrap, HTML , CSS</h1>
+                                    </div>
+                                    <div class="author">
+                                        <div class="name">Nguyễn Duy Quang</div>
+                                    </div>
+                                </div>
+                                <div class="price">Miễn phí</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="item">
+                            <a href="http://salty-chamber-02216.herokuapp.com/chi-tiet-khoa-hoc">
+                                <div class="img">
+                                    <img width="100%" src="http://salty-chamber-02216.herokuapp.com/layout/image/main20image-15524693621081389677771-crop-15524693718131899353495.jpg" alt="">
+                                    <div class="star-count-student">
+                                        <div class="star">4.6 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                        <div class="count-student"><i class="fa fa-user" aria-hidden="true"></i> 10 Học viên</div>
+                                    </div>
+                                </div>
+                                <div class="time-course">
+                                    <div class="video"><i class="fa fa-youtube-play" aria-hidden="true"></i> Khóa học qua Video</div>
+                                    <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> 24 giờ</div>
+                                </div>
+
+                                <div class="intro">
+                                    <div class="title">
+                                        <h1>Thiết kế giao diện website với Bootstrap, HTML , CSS</h1>
+                                    </div>
+                                    <div class="author">
+                                        <div class="name">Nguyễn Duy Quang</div>
+                                    </div>
+                                </div>
+                                <div class="price">Miễn phí</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
     </div> <!-- .container -->
 @endsection

@@ -28,3 +28,12 @@ Route::get('detailCourse',[
     'as' => 'detailCourse',
     'uses' => 'PageController@getDetaiilCourse'
 ]);
+Route::get('/login',[
+    'as' => 'Đăng nhập',
+    'uses' => 'AdminController@login'
+]);
+
+Route::get('/admin',[
+    'as' => 'admin',
+    'uses' => 'AdminController@getIndex'
+]);

@@ -67,6 +67,24 @@ background:#fff;
 font-weight:300;
 
 }
+.container
+{
+    margin-top: 20px;
+}
+.container .panel-default {
+    margin-top: 20px;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+}
+.panel-default>.panel-heading
+{
+    color: #333;
+    padding: 10px 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
 .mxh {
     display: inline-flex;
 }
